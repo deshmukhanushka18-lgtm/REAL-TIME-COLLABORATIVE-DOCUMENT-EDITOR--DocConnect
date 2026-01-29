@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# REAL-TIME COLLABORATIVE DOCUMENT EDITOR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*COMPANY*: CODTECH IT SOLUTIONS  
+*NAME*: Anushka Vijay Deshmukh
+*INTERN ID*: CTISAK60  
+*DOMAIN*: Full Stack Development  
+*DURATION*: 4 WEEKS  
+*MENTOR*: NEELA SANTOSH
 
-## Available Scripts
 
-In the project directory, you can run:
+DocConnect is a real-time collaborative document editor designed to allow multiple users to edit and view the same document simultaneously. The application focuses on seamless collaboration, low-latency updates, and a simple, user-friendly interface, making it ideal for teamwork, coding interviews, and collaborative learning.
 
-### `npm start`
+The frontend of DocConnect is built using React.js, providing a responsive and dynamic user experience. Users can create a new room or join an existing one using a unique Room ID. Each participant enters a username, which is displayed in the members list once they join the session. Navigation is handled using React Router, and notifications such as user join/leave events are shown using React Hot Toast.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+For the editor itself, CodeMirror is used to provide a powerful text editing experience, including syntax highlighting, bracket matching, and customizable themes. Changes made by one user are instantly reflected for all connected users, ensuring real-time synchronization of the document content.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+The backend is developed using Node.js and Express.js, with Socket.IO enabling real-time, bi-directional communication between the server and connected clients. WebSockets are used to efficiently broadcast code and cursor updates to all users in the same room. The server manages room-based connections and tracks active users, ensuring smooth collaboration and proper handling of user disconnects.
 
-### `npm test`
+DocConnect follows a room-based architecture, where each room represents a shared editing session. When a user joins or leaves a room, all participants are notified instantly. The application also includes features such as copying the Room ID, downloading the edited file, and safely handling unexpected disconnections.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Overall, DocConnect demonstrates practical implementation of real-time systems, WebSocket communication, and modern frontend-backend integration. It showcases how collaborative tools like Google Docs work internally, making it a strong example of real-world full-stack application development.
