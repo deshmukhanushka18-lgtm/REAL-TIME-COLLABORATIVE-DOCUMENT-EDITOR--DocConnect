@@ -19,3 +19,10 @@ The backend is developed using Node.js and Express.js, with Socket.IO enabling r
 DocConnect follows a room-based architecture, where each room represents a shared editing session. When a user joins or leaves a room, all participants are notified instantly. The application also includes features such as copying the Room ID, downloading the edited file, and safely handling unexpected disconnections.
 
 Overall, DocConnect demonstrates practical implementation of real-time systems, WebSocket communication, and modern frontend-backend integration. It showcases how collaborative tools like Google Docs work internally, making it a strong example of real-world full-stack application development.
+
+
+Output:
+
+<img width="1913" height="970" alt="Image" src="https://github.com/user-attachments/assets/822a28f1-ce91-4242-8f77-ce6e5f8caa3b" />
+<img width="1911" height="971" alt="Image" src="https://github.com/user-attachments/assets/fc0fac9c-d440-4fb5-a577-d96c27f7a9da" />
+<img width="1907" height="965" alt="Image" src="https://github.com/user-attachments/assets/182cd4b7-6561-404f-8185-5544a08f90a5" />
