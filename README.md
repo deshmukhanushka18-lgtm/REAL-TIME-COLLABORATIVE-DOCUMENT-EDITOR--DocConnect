@@ -1,12 +1,5 @@
 # REAL-TIME COLLABORATIVE DOCUMENT EDITOR
 
-*COMPANY*: CODTECH IT SOLUTIONS  
-*NAME*: Anushka Vijay Deshmukh
-*INTERN ID*: CTISAK60  
-*DOMAIN*: Full Stack Development  
-*DURATION*: 4 WEEKS  
-*MENTOR*: NEELA SANTOSH
-
 
 DocConnect is a real-time collaborative document editor designed to allow multiple users to edit and view the same document simultaneously. The application focuses on seamless collaboration, low-latency updates, and a simple, user-friendly interface, making it ideal for teamwork, coding interviews, and collaborative learning.
 
